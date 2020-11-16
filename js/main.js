@@ -31,7 +31,7 @@ function getJson() {
 
         let humidity = data.main.humidity
         let humidity_display = document.getElementById('humidity')
-        humidity_display.innerHTML = high
+        humidity_display.innerHTML = humidity 
        
         }
     )
